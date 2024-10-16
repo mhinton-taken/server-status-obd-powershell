@@ -1,0 +1,156 @@
+This is a status report for server: redacted
+Report date: 2024.10.14
+Report time: 03:05
+Server uptime :
+
+PSComputerName LastBootUpTime       Uptime             
+-------------- --------------       ------             
+redacted        9/25/2024 1:41:55 AM 19.01:23:08.3699374
+
+
+Diskspace report :
+
+
+Root    : C:\
+SizeGB  : 100
+UsedGB  : 70
+FreeGB  : 30
+PctFree : 29.58
+
+Root    : D:\
+SizeGB  : 80
+UsedGB  : 34
+FreeGB  : 46
+PctFree : 57.14
+
+
+
+Windows Application log errors :
+
+   Index Time          EntryType   Source                 InstanceID Message                      
+   ----- ----          ---------   ------                 ---------- -------                      
+ 1354351 Oct 13 19:15  Error       Microsoft-Windows...         1511 Windows cannot find the lo...
+ 1354349 Oct 13 19:02  Error       Microsoft-Windows...         1511 Windows cannot find the lo...
+ 1354347 Oct 13 19:02  Error       Microsoft-Windows...         1511 Windows cannot find the lo...
+ 1354345 Oct 13 19:02  Error       Microsoft-Windows...         1511 Windows cannot find the lo...
+ 1354343 Oct 13 19:01  Error       Microsoft-Windows...         1511 Windows cannot find the lo...
+
+
+Windows System log errors :
+
+   Index Time          EntryType   Source                 InstanceID Message                      
+   ----- ----          ---------   ------                 ---------- -------                      
+ 1291531 Oct 14 03:05  Error       DCOM                        10016 The description for Event ...
+ 1291375 Oct 13 19:01  Error       DCOM                        10016 The description for Event ...
+ 1291370 Oct 13 19:01  Error       DCOM                        10016 The description for Event ...
+ 1291368 Oct 13 19:01  Error       DCOM                        10016 The description for Event ...
+ 1291367 Oct 13 19:01  Error       DCOM                        10016 The description for Event ...
+
+
+Website status :
+
+Name             ID   State      Physical Path                  Bindings                          
+----             --   -----      -------------                  --------                          
+redacted   1    Started    C:\inetpub\wwwroot                     http *:80:                        
+
+
+Windows Services that are running :
+
+Status   Name               DisplayName                           
+------   ----               -----------                           
+Running  AppHostSvc         Application Host Helper Service       
+Running  Appinfo            Application Information               
+Running  AppMgmt            Application Management                
+Running  BFE                Base Filtering Engine                 
+Running  BrokerInfrastru... Background Tasks Infrastructure Ser...
+Running  CcmExec            SMS Agent Host                        
+Running  CDPSvc             Connected Devices Platform Service    
+Running  CDPUserSvc_4745... CDPUserSvc_47451c5e                   
+Running  CertPropSvc        Certificate Propagation               
+Running  Check_MK_Agent     Check_MK_Agent                        
+Running  CIPUpdateWinSer... CIPUpdateWinService_SAN_9001          
+Running  CmRcService        Configuration Manager Remote Control  
+Running  COMSysApp          COM+ System Application               
+Running  CoreMessagingRe... CoreMessaging                         
+Running  CryptSvc           Cryptographic Services                
+Running  DcomLaunch         DCOM Server Process Launcher          
+Running  Dhcp               DHCP Client                           
+Running  DiagTrack          Connected User Experiences and Tele...
+Running  Dnscache           DNS Client                            
+Running  DPS                Diagnostic Policy Service             
+Running  DsmSvc             Device Setup Manager                  
+Running  DsSvc              Data Sharing Service                  
+Running  EventLog           Windows Event Log                     
+Running  EventSystem        COM+ Event System                     
+Running  FontCache          Windows Font Cache Service            
+Running  gpsvc              Group Policy Client                   
+Running  HealthService      Microsoft Monitoring Agent            
+Running  iphlpsvc           IP Helper                             
+Running  jasperreportsPo... jasperreportsPostgreSQL               
+Running  jasperreportsTo... jasperreportsTomcat                   
+Running  KeyIso             CNG Key Isolation                     
+Running  LanmanServer       Server                                
+Running  LanmanWorkstation  Workstation                           
+Running  lfsvc              Geolocation Service                   
+Running  lmhosts            TCP/IP NetBIOS Helper                 
+Running  LSM                Local Session Manager                 
+Running  macmnsvc           Trellix Agent Common Services         
+Running  masvc              Trellix Agent Service                 
+Running  McAfeeFramework    Trellix Agent Backwards Compatibili...
+Running  McShield           McAfee McShield                       
+Running  McTaskManager      McAfee Task Manager                   
+Running  mfemms             McAfee Service Controller             
+Running  mfevtp             McAfee Validation Trust Protection ...
+Running  MpsSvc             Windows Firewall                      
+Running  MSDTC              Distributed Transaction Coordinator   
+Running  NcbService         Network Connection Broker             
+Running  Netlogon           Netlogon                              
+Running  netprofm           Network List Service                  
+Running  NlaSvc             Network Location Awareness            
+Running  nsi                Network Store Interface Service       
+Running  OneSyncSvc_4745... Sync Host_47451c5e                    
+Running  PcaSvc             Program Compatibility Assistant Ser...
+Running  PlugPlay           Plug and Play                         
+Running  PolicyAgent        IPsec Policy Agent                    
+Running  Power              Power                                 
+Running  ProfSvc            User Profile Service                  
+Running  RemoteRegistry     Remote Registry                       
+Running  RpcEptMapper       RPC Endpoint Mapper                   
+Running  RpcSs              Remote Procedure Call (RPC)           
+Running  SamSs              Security Accounts Manager             
+Running  Schedule           Task Scheduler                        
+Running  SENS               System Event Notification Service     
+Running  SessionEnv         Remote Desktop Configuration          
+Running  ShellHWDetection   Shell Hardware Detection              
+Running  SNMP               SNMP Service                          
+Running  SSDPSRV            SSDP Discovery                        
+Running  StateRepository    State Repository Service              
+Running  STSchedEx          ST Remote Scheduler Service           
+Running  SystemEventsBroker System Events Broker                  
+Running  TermService        Remote Desktop Services               
+Running  Themes             Themes                                
+Running  tiledatamodelsvc   Tile Data model server                
+Running  TimeBrokerSvc      Time Broker                           
+Running  TrkWks             Distributed Link Tracking Client      
+Running  UALSVC             User Access Logging Service           
+Running  UmRdpService       Remote Desktop Services UserMode Po...
+Running  UserManager        User Manager                          
+Running  VaultSvc           Credential Manager                    
+Running  VGAuthService      VMware Alias Manager and Ticket Ser...
+Running  vm3dservice        VMware SVGA Helper Service            
+Running  vmcompute          Hyper-V Host Compute Service          
+Running  vmms               Hyper-V Virtual Machine Management    
+Running  VMTools            VMware Tools                          
+Running  W32Time            Windows Time                          
+Running  W3SVC              World Wide Web Publishing Service     
+Running  WAS                Windows Process Activation Service    
+Running  Wcmsvc             Windows Connection Manager            
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Running  Winmgmt            Windows Management Instrumentation    
+Running  WinRM              Windows Remote Management (WS-Manag...
+Running  wlidsvc            Microsoft Account Sign-in Assistant   
+Running  WpnService         Windows Push Notifications System S...
+Running  wudfsvc            Windows Driver Foundation - User-mo...
+
+
+Script execution time in milliseconds to create report: 2861.8619
